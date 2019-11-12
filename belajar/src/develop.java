@@ -3,6 +3,7 @@ public class develop {
     float a = 12;
     float b = 34;
     float c = 44;
+    public float data = 55;
 
     public float kurang (){
         develop a1 = new develop();
@@ -28,11 +29,19 @@ public class develop {
         return hasilBagi;
     }
 
+    public void dataPrint (){
+        float hitung = a/b;
+        System.out.println(data);
+        System.out.println(hitung);
+    }
+
     public static void main (String args[]){
         develop a3 = new develop();
         System.out.println(a3.tambah());
         System.out.println(a3.kurang());
         System.out.println(a3.perkalian());
         System.out.println(a3.pembagian());
+        a3.dataPrint();
+
     }
 }
