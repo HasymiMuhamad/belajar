@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - dev",
+            "request": "launch",
+            "mainClass": "dev"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - develop",
+            "request": "launch",
+            "mainClass": "develop"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - learnClass",
+            "request": "launch",
+            "mainClass": "learnClass"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - bagian",
+            "request": "launch",
+            "mainClass": "bagian"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - belajar",
+            "request": "launch",
+            "mainClass": "belajar"
+        }
+    ]
+}
