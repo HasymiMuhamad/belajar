@@ -59,7 +59,7 @@ public class develop {
         float data1 = a5.b;
         float data2;
         int angka [] = {1,2,3,4,5};
-        char nilai = 'C';
+        char nilai = 'A';
 
         for (int bilangan : angka){
             if (bilangan  == 4){
@@ -106,4 +106,6 @@ public class develop {
 
 
     }
+
+   
 }
