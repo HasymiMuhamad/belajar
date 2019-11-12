@@ -59,6 +59,7 @@ public class develop {
         float data1 = a5.b;
         float data2;
         int angka [] = {1,2,3,4,5};
+        char nilai = 'C';
 
         for (int bilangan : angka){
             if (bilangan  == 4){
@@ -81,6 +82,27 @@ public class develop {
             System.out.println("nilai A = " + data1);
             data1++;
         } while ( data1 < 50);
+
+        switch (nilai){
+                case 'A':
+                System.out.println("Nice");
+                break;
+
+            case 'B':
+            case 'C':
+                System.out.println("Good");
+                break;
+
+            case 'D':
+                System.out.println("Retry");
+                break;
+
+            default:
+                System.out.println("Invalid data");
+                break;
+
+
+        }
 
 
     }
